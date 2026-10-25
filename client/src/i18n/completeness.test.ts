@@ -12,6 +12,7 @@ import id from "./locales/id";
 import itIT from "./locales/it";
 import ja from "./locales/ja";
 import ko from "./locales/ko";
+import nl from "./locales/nl";
 import pl from "./locales/pl";
 import ptBR from "./locales/pt-BR";
 import ru from "./locales/ru";
@@ -36,6 +37,7 @@ const NON_EN: ReadonlyArray<readonly [string, Translations]> = [
   ["it", itIT],
   ["ja", ja],
   ["ko", ko],
+  ["nl", nl],
   ["pl", pl],
   ["pt-BR", ptBR],
   ["ru", ru],
