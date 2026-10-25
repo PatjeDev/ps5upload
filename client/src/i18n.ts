@@ -25,6 +25,7 @@ export type LanguageCode =
   | "vi"
   | "hi"
   | "bn"
+  | "nl"
   | "pl"
   | "pt-BR"
   | "ru"
@@ -78,6 +79,8 @@ function importLocale(code: LanguageCode): Promise<{ default: Translations }> {
       return import("./i18n/locales/hi");
     case "bn":
       return import("./i18n/locales/bn");
+    case "nl":
+      return import("./i18n/locales/nl");
     case "pl":
       return import("./i18n/locales/pl");
     case "pt-BR":
