@@ -24,6 +24,7 @@ export const LANGUAGES: { code: LanguageCode; label: string }[] = [
   { code: "es", label: "Español" },
   { code: "ar", label: "العربية" },
   { code: "bn", label: "বাংলা" },
+  { code: "nl", label: "Nederlands" },
   { code: "pl", label: "Polski" },
   { code: "pt-BR", label: "Português (Brasil)" },
   { code: "ru", label: "Русский" },
